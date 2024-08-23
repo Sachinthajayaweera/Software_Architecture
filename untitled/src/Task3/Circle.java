@@ -3,7 +3,7 @@ package Task3;
 public class Circle implements Shape {
     @Override
     public void draw() {
-        int r = 4; // radius
+        int r = 10; // radius
         int diameter = 2 * r + 1;
         for (int i = 0; i < diameter; i++) {
             for (int j = 0; j < diameter; j++) {
